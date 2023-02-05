@@ -16,49 +16,59 @@
     <script type="text/javascript" src="js/popper.js"></script>
     <script type="text/javascript" src="js/principal.js"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
-        <div class="container">
-            <a class="navbar-brand ps-5 pe-4" href="principal.html">Nanotecnologia Celular</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark p-3">
+        <div class="container align-items-baseline">
+            <a class="navbar-brand ps-2 pe-5" href="principal.html">Nanotecnologia Celular</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cards" aria-controls="cards" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="cards">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown ps-5 pe-4">
-                        <a class="nav-link dropdown-toggle" href="#doencas" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tratamento de Doenças</a>
-                        <ul class="dropdown-menu">
+                    <li class="nav-item dropdown ps-2 pe-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tratamento de Doenças</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#doencas">Nanotecnologia no Tratamento de Doenças</a></li>
                             <li><a class="dropdown-item" href="maquete.html">BIOMAQUETE: Tratamento de Câncer no Estômago</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item ps-5 pe-4">
+                    <li class="nav-item ps-2 pe-2">
                         <a class="nav-link" href="#lesoes">Tratamento de Lesões</a>
                     </li>
-                    <li class="nav-item ps-5 pe-4">
-                        <a class="nav-link" href="#covid">Nanotecnologia no combate a COVID-19</a>
+                    <li class="nav-item ps-2">
+                        <a class="nav-link" href="#covid">Combate à COVID-19</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <article class="container">
+    <article class="container mt-5">
         <div class="row">
-            <h2 class="mt-4">O que é nanotecnologia?</h2>
+            <h1 class="mt-5 mb-2"><b>O que é nanotecnologia?</b></h1>
             <section class="col-md-7">
-                <img src="img/nanotecnologia.jpg" class="img-thumbnail mt-3 mb-3" alt="Nanotecnologia">
-                <p>What is Lorem Ipsum?</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p>Why do we use it?</p>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                <p>Where does it come from?</p>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                <p>Where can I get some?</p>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                <div>
+                    <img src="img/nanotecnologia.jpg" class="img-thumbnail mt-3 mb-3" alt="Nanotecnologia">
+                    <hr>
+                    <p>A nanotecnologia é o uso da tecnologia para manipulação de matérias em escalas muito pequenas (atômica ou celular) impossíveis de serem trabalhadas manualmente.</p>
+                    <p>A nanobiologia, por sua vez, é a área de estudo que integra conhecimentos de biologia ao ramo da nanotecnologia. Ela inclui áreas como: desenvolvimento de nanodispositivos, manipulação de nanopartículas e fenômenos que ocorram dentro dessa nanoescala.</p>
+                    <p>Alguns exemplos de aplicações práticas na medicina incluem desde a descontaminação de um ambiente inóspito e o desenvolvimento de drogas artificiais, até a regeneração de tecidos corporais e combate contra vírus e bactérias. Atualmente, é a principal esperança para a cura de doenças como câncer e Alzheimer.</p>
+                    <p>Um dos instrumentos utilizados para exploração de materiais nessa escala é o Microscópio eletrônico de varredura (MEV) e o Microscópio de varredura por Tunelamento (STM), que permite a observação de átomos e moléculas ao nível atômico.</p>
+                    <p>O objetivo principal não é chegar a um controle preciso e individual dos átomos, mas elaborar estruturas estáveis com eles.</p>
+                    <p>Existe muito debate nas implicações futuras da nanotecnologia, pois os desafios são semelhantes aos de desenvolvimentos de novas tecnologias, incluindo questões sobre a toxicidade e impactos ambientais dos nanomateriais, e os efeitos potenciais na economia global, assim como a especulação sobre cenários apocalípticos.</p>
+                </div>
+                <div>
+                    <hr>
+                    <p class="pt-2"><h3><b>Aplicações da Nanotecnologia</b></h3></p>
+                    <p class="pt-3">Uma das grandes aplicações da Nanotecnologia está no diagnóstico, no tratamento e cura de doenças.  Existem atualmente um inúmeras ações e pesquisas no desenvolvimento de nanocarreadores para tratamento de câncer, nanopartículas carregadas com fármacos, que podem trafegar facilmente no corpo humano e quando determinado evento ocorre (gatilho: temperatura, mudança de pH) o carreado libera a dose de medicamento diretamente no local da enfermidade.</p>
+                    <p>Importantes aplicações estão também em curativos com propriedades melhoradas quer aceleram a regeneração do tecido lesado.</p>
+                    <p>Na área de diagnósticos o uso da tecnologia de Lab on a Chip ou Organ on a Chip, ou seja, um laboratório de análise clínica em um dispositivo fabricado com nanocanais onde quantidades ínfimas de material podem ser analisadas com rapidez e precisão e principalmente com baixo custo, como por exemplo análises de DNA.</p>
+                    <p>Muitas outras aplicações estão sendo desenvolvidas, como por exemplo, os tratamentos genéticos baseados em terapias de RNA que futuramente auxiliarão no combate às doenças muito antes de um indivíduo desenvolver a condição adversa.</p>
+                    <p>Todas essas novidades possuem um enorme potencial para reduzir os custos do SUS e proporcionar um melhor serviço à população.</p>
+                </div>
             </section>
 
             <section class="col-md-5">
-                <div class="card mt-3">
-                    <div id="doencas" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="doencas" class="card mt-3">
+                    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/doencasimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
@@ -88,8 +98,8 @@
 
                 <hr>
 
-                <div class="card">
-                    <div id="lesoes" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="lesoes" class="card">
+                    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/lesoesimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide"
@@ -111,7 +121,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h4 class="card-title">Tratamento de Lesões</h4> <hr>
+                        <h4 class="card-title">Nanotecnologia no Tratamento de Lesões</h4> <hr>
                         <p class="card-text">Já pensou se lesões médias ou até graves pudessem ser curadas se uma maneira bem mais rápida e eficiente? A nanotecnologia pode revolucionar a medicinar e fazer com que orgãos e tecidos danificados sejam reparados, e até mesmo uma medula espinhal lesionada seja tratada a ponto de reverter a paralisia!</p>
                         <a href="lesoes.html" class="btn btn-primary">Saiba mais</a>
                     </div>
@@ -119,10 +129,11 @@
                         Página criada por Luca Holanda Santorelli.
                     </div>
                 </div>
-                <hr>
-                <div class="card">
 
-                    <div id="covid" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <hr>
+
+                <div id="covid" class="card">
+                    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/covidimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide"
@@ -149,7 +160,7 @@
                         <a href="covid.html" class="btn btn-primary">Saiba mais</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Página criada por João Victor da Silva Faustino.
+                        Página criada por Luiz Eduardo.
                     </div>
                 </div>
             </section>
