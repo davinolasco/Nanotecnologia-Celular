@@ -1,0 +1,128 @@
+header{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;s
+    }
+.cabecalho{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.descricao{
+    align-items: justify;
+    font-family: 'Times New Roman';
+    font-size: 14px;
+}
+.links{
+    margin: auto;
+    display: block;
+}
+.parte-1{
+    background-color: rgba(160, 31, 192, 0.808);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parte-1-caixas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2048px;
+    margin: 0 auto;
+}
+.parte-1-caixas div{
+    flex: 1 1 400px;
+    margin: 0 10px;
+
+}  .parte-2{
+    background-color:rgba(193, 15, 15, 0.808);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parte-2-caixas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2048px;
+    margin: 0 auto;
+}
+.parte-2-caixas div{
+    flex: 1 1 200px;
+    margin: 0 10px;
+}
+
+.parte-3 {
+    background-color:blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parte-3-caixas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2048px;
+    margin: 0 auto;
+}
+.parte-3-caixas div{
+    flex: 1 1 200px;
+    margin: 0 10px;
+
+
+}
+.parte-4 {
+    background-color:rgba(14, 235, 187, 0.767);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parte-4-caixas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2048px;
+    margin: 0 auto;
+}
+.parte-4-caixas div{
+    flex: 1 1 200px;
+    margin: 0 10px;
+
+
+}
+.img-txt-vertical {
+    text-align: center;
+    width: 100x;
+}
+div p{
+    color: rgba(255, 255, 255, 0.712);
+    text-shadow: 0 0 1px white, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+.img-txt-vertical img{
+    display: block;
+    margin: 0 auto;
+}
+#linha-vertical {
+    height: 200px;
+    border-right: 1px solid black;
+    flex: 1px;
+}
+#titulo_parte {
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+#parte-texto {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+img{
+    max-width: 100%;
+    display: block;
+    max-width: 320px;
+    max-height: 320px;
+    border: solid;
+    margin: auto;
+}

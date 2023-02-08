@@ -8,13 +8,6 @@
     <title>Nanotecnologia Celular</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/principal.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/principal/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/principal/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/principal/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/principal/site.webmanifest">
-    <link rel="mask-icon" href="img/favicon/principal/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -25,7 +18,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark p-3">
         <div class="container align-items-baseline">
-            <a class="navbar-brand ps-2 pe-3" href="principal.html">Nanotecnologia Celular</a>
+            <a class="navbar-brand ps-2 pe-5" href="principal.html">Nanotecnologia Celular</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cards" aria-controls="cards" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,7 +46,7 @@
             <h1 class="mt-5 mb-2"><b>O que é nanotecnologia?</b></h1>
             <section class="col-md-7">
                 <div>
-                    <img src="img/nanotecnologia.jpg" class="img-thumbnail mt-3 mb-3" alt="Nanotecnologia">
+                    <img src="img/principal/nanotecnologia.jpg" class="img-thumbnail mt-3 mb-3" alt="Nanotecnologia">
                     <hr>
                     <p>A nanotecnologia é o uso da tecnologia para manipulação de matérias em escalas muito pequenas (atômica ou celular) impossíveis de serem trabalhadas manualmente.</p>
                     <p>A nanobiologia, por sua vez, é a área de estudo que integra conhecimentos de biologia ao ramo da nanotecnologia. Ela inclui áreas como: desenvolvimento de nanodispositivos, manipulação de nanopartículas e fenômenos que ocorram dentro dessa nanoescala.</p>
@@ -71,24 +64,33 @@
                     <p>Muitas outras aplicações estão sendo desenvolvidas, como por exemplo, os tratamentos genéticos baseados em terapias de RNA que futuramente auxiliarão no combate às doenças muito antes de um indivíduo desenvolver a condição adversa.</p>
                     <p>Todas essas novidades possuem um enorme potencial para reduzir os custos do SUS e proporcionar um melhor serviço à população.</p>
                 </div>
+                <div>
+                    <hr>
+                    <p class="pt-2"><h3><b>Referências</b></h3></p>
+                    <ul>
+                        <li><a href="https://revistas.uneb.br/index.php/cintergeo/article/view/6896">Nanotecnologia: Possibilidades de Avanços Tecnológicos mais Poderosos (Revistas UNEB)</a></li>
+                        <li><a href="https://newslab.com.br/nanomedicina-a-medicina-do-futuro/">Nanomedicina: a Medicina do Futuro (NewsLab)</a></li>
+                        <li><a href="https://maislaudo.com.br/blog/nanotecnologia-na-saude/">Nanotecnologia na Saúde (Mais Laudo)</a></li>
+                    </ul>
+                </div>
             </section>
 
             <section class="col-md-5">
                 <div id="doencas" class="card mt-3">
-                    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div id="slides1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/doencasimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
+                                <img class="d-block w-100" src="img/principal/doencasimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img/doencasimg2.jpg?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+                                <img class="d-block w-100" src="img/principal/doencasimg2.jpg?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#doencas" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slides1" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#doencas" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#slides1" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Próximo</span>
                         </button>
@@ -97,6 +99,7 @@
                         <h4 class="card-title">Nanotecnologia no Tratamento de Doenças</h4> <hr>
                         <p class="card-text">A nanotecnologia promete ser bastante eficiente para tratar doenças. Há muitas pesquisas acontecendo neste momento, e seus resultados são bem animadores. Principalmente quando se trata das neurodegenerativas e cancerígenas.</p>
                         <a href="doencas.html" class="btn btn-primary">Saiba mais</a>
+                        <a href="maquete.html" class="btn btn-danger">Veja nossa BIOMAQUETE</a>
                     </div>
                     <div class="card-footer text-muted">
                         Página criada por Renan Negreiros de Gregório Jordão.
@@ -106,22 +109,22 @@
                 <hr>
 
                 <div id="lesoes" class="card">
-                    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div id="slides2" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/lesoesimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide"
+                                <img class="d-block w-100" src="img/principal/lesoesimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide"
                                     alt="Primeiro Slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img/lesoesimg2.jpg?auto=yes&bg=666&fg=444&text=Segundo Slide"
+                                <img class="d-block w-100" src="img/principal/lesoesimg2.jpg?auto=yes&bg=666&fg=444&text=Segundo Slide"
                                     alt="Segundo Slide">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#lesoes" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slides2" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#lesoes" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#slides2" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Próximo</span>
                         </button>
@@ -140,22 +143,22 @@
                 <hr>
 
                 <div id="covid" class="card">
-                    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div id="slides3" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/covidimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide"
+                                <img class="d-block w-100" src="img/principal/covidimg1.jpg?auto=yes&bg=777&fg=555&text=Primeiro Slide"
                                     alt="Primeiro Slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img/covidimg2.jpg?auto=yes&bg=666&fg=444&text=Segundo Slide"
+                                <img class="d-block w-100" src="img/principal/covidimg2.jpg?auto=yes&bg=666&fg=444&text=Segundo Slide"
                                     alt="Segundo Slide">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#covid" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slides2" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#covid" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#slides3" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Próximo</span>
                         </button>
